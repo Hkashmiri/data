@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PowerPillTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-02-05T21:26:41" hostname="Hafsahs-MacBook-Air.local" time="0.047">
+  <properties/>
+  <testcase name="[1] test testDefinedStaticField" classname="PowerPillTest" time="0.011"/>
+  <testcase name="[1] test toString" classname="PowerPillTest" time="0.01"/>
+  <testcase name="[1] test getName" classname="PowerPillTest" time="0.003"/>
+  <testcase name="[1] test testFieldDeclared_power" classname="PowerPillTest" time="0.001"/>
+  <testcase name="[1] test testFieldDeclared_name" classname="PowerPillTest" time="0.002"/>
+  <testcase name="[1] test testDeclaredConstructor_1" classname="PowerPillTest" time="0.002"/>
+  <testcase name="[1] test testDeclaredConstructor_2" classname="PowerPillTest" time="0.003"/>
+  <testcase name="[1] test setPower" classname="PowerPillTest" time="0.003"/>
+  <testcase name="[1] test getPower" classname="PowerPillTest" time="0.001"/>
+  <testcase name="[1] test setName" classname="PowerPillTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

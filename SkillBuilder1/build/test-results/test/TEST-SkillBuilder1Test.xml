@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SkillBuilder1Test" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-02-01T18:56:00" hostname="Hafsahs-MacBook-Air.local" time="0.047">
+  <properties/>
+  <testcase name="[2] testCalcWallPaint_1" classname="SkillBuilder1Test" time="0.025"/>
+  <testcase name="[2] testCalcWallPaint_2" classname="SkillBuilder1Test" time="0.004"/>
+  <testcase name="[2] testCalcWallPaint_3" classname="SkillBuilder1Test" time="0.005"/>
+  <testcase name="[1] testMain_1" classname="SkillBuilder1Test" time="0.005"/>
+  <testcase name="[1] testMain_2" classname="SkillBuilder1Test" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

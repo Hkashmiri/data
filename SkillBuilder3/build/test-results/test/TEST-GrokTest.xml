@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GrokTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-02-13T21:36:37" hostname="Hafsahs-MacBook-Air.local" time="0.03">
+  <properties/>
+  <testcase name="[1] test testDefinedStaticField" classname="GrokTest" time="0.011"/>
+  <testcase name="[2] test tookHit" classname="GrokTest" time="0.005"/>
+  <testcase name="[1] test getPowerLevel" classname="GrokTest" time="0.002"/>
+  <testcase name="[1] test setPowerLevel" classname="GrokTest" time="0.002"/>
+  <testcase name="[2] test takePowerPill" classname="GrokTest" time="0.002"/>
+  <testcase name="[1] test testDeclaredConstructor_1" classname="GrokTest" time="0.001"/>
+  <testcase name="[1] test testDeclaredConstructor_2" classname="GrokTest" time="0.001"/>
+  <testcase name="[1] test testFieldDeclared_powerLevel" classname="GrokTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
