@@ -1,5 +1,4 @@
-import greenfoot.*;  // (World, greenfoot.Actor, greenfoot.GreenfootImage, Greenfoot and MouseInfo)
-import java.util.Random;
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Write a description of class Circle here.
@@ -9,45 +8,40 @@ import java.util.Random;
  */
 public class Circle extends Actor
 {
-    private final static int MAX_RADIUS = 20;
-    
-    private int radius;
+    private static final int MAX_RADIUS = 40;
+    //private GreenfootImage image;
+    //private int radius;
     private int increment;
     private int maxRadius;
-    GreenfootImage image;
-    Random rand;
-    
-    private void init(int maxRadius){
-        this.maxRadius = maxRadius;
-        increment = maxRadius;
-        radius = Math.abs(increment-maxRadius);
-        image = new GreenfootImage(2*maxRadius,2*maxRadius);
+    private void init(int radius){
+        GreenfootImage image = new GreenfootImage(MAX_RADIUS*2,MAX_RADIUS*2);
+        //radius = 0;
+        increment = 0;
+        maxRadius = MAX_RADIUS;
         image.setColor(Color.RED);
-        rand = new Random(17);
-        setRotation(90);
+        //image.fillOval(0,0,radius*2, radius*2);
+        setImage(image);
     }
     
-    public Circle(){
+    public Circle()
+    {
         init(MAX_RADIUS);
     }
-    
-    public Circle(int maxRadius){
-        init(maxRadius);
+    public Circle(int radius){
+        init(radius);
     }
-    
     private void pulsate(){
+        increment = (increment +1) % (2*MAX_RADIUS+1);
+        //radius = (radius + 1) % MAX_RADIUS; // decreasing
+        //radius = Math.abs(increment - MAX_RADIUS); //increasing
+        GreenfootImage image = getImage();
         image.clear();
-        image.fillOval(maxRadius-radius,maxRadius-radius,
-                        2*radius,2*radius);
+        //image.fillOval(MAX_RADIUS-radius, MAX_RADIUS-radius, 2*radius, 2*radius);
         setImage(image);
-        increment = (increment+1) % (2*maxRadius+1);
-        radius = Math.abs(increment-maxRadius);    
     }
-    
     private void moveIt(){
-        move(1);
+        //this should be my own code
     }
-    
     /**
      * Act - do whatever the Circle wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -55,8 +49,6 @@ public class Circle extends Actor
     public void act()
     {
         pulsate();
-        moveIt();
-        int rotation = rand.nextInt(360)+2;
-        setRotation(rotation);
+        move(1);
     }
 }

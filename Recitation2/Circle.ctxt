@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=Circle
 comment0.text=\n\ Write\ a\ description\ of\ class\ Circle\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=maxRadius
+comment1.params=radius
 comment1.target=void\ init(int)
 comment2.params=
 comment2.target=Circle()
-comment3.params=maxRadius
+comment3.params=radius
 comment3.target=Circle(int)
 comment4.params=
 comment4.target=void\ pulsate()
