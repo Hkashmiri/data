@@ -2,7 +2,7 @@ const config = {
     db: {
         host: 'localhost',
         user: 'guru',
-        password: 'pemacs.1',
+        password: 'password',
         database: 'pas',
     }
 }
