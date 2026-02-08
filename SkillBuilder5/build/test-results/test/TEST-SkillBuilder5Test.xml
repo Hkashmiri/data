@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SkillBuilder5Test" tests="16" skipped="0" failures="0" errors="0" timestamp="2024-09-12T23:44:19" hostname="Hafsahs-MacBook-Air.local" time="0.062">
+  <properties/>
+  <testcase name="[1] Test IndexOfStrings_1" classname="SkillBuilder5Test" time="0.022"/>
+  <testcase name="[1] Test IndexOfStrings_2" classname="SkillBuilder5Test" time="0.001"/>
+  <testcase name="[1] Test IndexOfStrings_3" classname="SkillBuilder5Test" time="0.0"/>
+  <testcase name="[1] Test indexOf_1" classname="SkillBuilder5Test" time="0.0"/>
+  <testcase name="[1] Test indexOf_2" classname="SkillBuilder5Test" time="0.0"/>
+  <testcase name="[1] Test indexOf_3" classname="SkillBuilder5Test" time="0.001"/>
+  <testcase name="[1] Test prefixAverage_1" classname="SkillBuilder5Test" time="0.004"/>
+  <testcase name="[1] Test prefixAverage_2" classname="SkillBuilder5Test" time="0.015"/>
+  <testcase name="[1] Test prefixAverage_3" classname="SkillBuilder5Test" time="0.0"/>
+  <testcase name="[2] Test remove_1" classname="SkillBuilder5Test" time="0.001"/>
+  <testcase name="[2] Test remove_2" classname="SkillBuilder5Test" time="0.001"/>
+  <testcase name="[2] Test remove_3" classname="SkillBuilder5Test" time="0.0"/>
+  <testcase name="[2] Test remove_4" classname="SkillBuilder5Test" time="0.001"/>
+  <testcase name="[2] Test remove_5" classname="SkillBuilder5Test" time="0.0"/>
+  <testcase name="[3] Test reverse_1" classname="SkillBuilder5Test" time="0.001"/>
+  <testcase name="[3] Test reverse_1" classname="SkillBuilder5Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
