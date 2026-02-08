@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicTacToeTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-05-23T11:51:31" hostname="Hafsahs-MacBook-Air.local" time="0.031">
+  <properties/>
+  <testcase name="[2] test clear" classname="TicTacToeTest" time="0.012"/>
+  <testcase name="[5] test getWinner" classname="TicTacToeTest" time="0.007"/>
+  <testcase name="[1] test movesRemaining" classname="TicTacToeTest" time="0.002"/>
+  <testcase name="[1] test getPiece" classname="TicTacToeTest" time="0.002"/>
+  <testcase name="[1] test isEmpty" classname="TicTacToeTest" time="0.001"/>
+  <testcase name="[1] test isValid" classname="TicTacToeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
