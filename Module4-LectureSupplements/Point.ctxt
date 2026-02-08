@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Point
+comment1.params=
+comment1.target=Point()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Point\n
+comment10.params=x
+comment10.target=java.lang.String\ toString(int)
+comment2.params=x\ y
+comment2.target=Point(double,\ double)
+comment2.text=\n\ Value\ constructor\ for\ objects\ of\ class\ Point\n\ \n\ @param\ x\ x-value\ of\ point\n\ @param\ y\ y-value\ of\ point\ \n\ \n
+comment3.params=
+comment3.target=double\ getX()
+comment4.params=
+comment4.target=double\ getY()
+comment5.params=x
+comment5.target=void\ setX(double)
+comment6.params=y
+comment6.target=void\ setY(double)
+comment7.params=x\ y
+comment7.target=void\ set(double,\ double)
+comment8.params=
+comment8.target=double\ distanceTo()
+comment8.text=\n\ This\ is\ the\ distance\ from\ the\ origin\ at\ (0,0).\n
+comment9.params=aPoint
+comment9.target=double\ distanceTo(Point)
+numComments=11
