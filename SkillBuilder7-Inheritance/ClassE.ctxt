@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ClassE
+comment0.text=\n\ Write\ a\ description\ of\ class\ ClassD\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=aaObj
+comment1.target=int\ doSomeCalculation(ClassA)
+numComments=2

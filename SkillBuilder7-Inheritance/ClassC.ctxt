@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ClassC
+comment0.text=\n\ Write\ a\ description\ of\ class\ ClassB\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=ClassC()
+comment2.params=
+comment2.target=void\ methA()
+comment3.params=
+comment3.target=void\ methB()
+comment4.params=
+comment4.target=int\ getCount()
+numComments=5
