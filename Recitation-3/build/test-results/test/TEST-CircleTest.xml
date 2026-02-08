@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CircleTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-02-15T00:06:45" hostname="Hafsahs-MacBook-Air.local" time="0.042">
+  <properties/>
+  <testcase name="[1] Test Constructor" classname="CircleTest" time="0.02"/>
+  <testcase name="[3] Test intersects" classname="CircleTest" time="0.004"/>
+  <testcase name="[3] Test contains" classname="CircleTest" time="0.002"/>
+  <testcase name="[2] Test setLocation" classname="CircleTest" time="0.001"/>
+  <testcase name="[2] Test getLocation" classname="CircleTest" time="0.001"/>
+  <testcase name="[1] Test setRadius" classname="CircleTest" time="0.002"/>
+  <testcase name="[1] Test getRadius" classname="CircleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
